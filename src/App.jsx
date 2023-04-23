@@ -1,13 +1,11 @@
-import Main from "./layout/Main/Main"
-
+import { router } from "./layout/Routes";
+import { RouterProvider } from "react-router-dom";
 function App() {
-  
-
   return (
     <>
-   <Main></Main>
+      <RouterProvider router={router} />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
