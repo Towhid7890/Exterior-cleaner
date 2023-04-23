@@ -10,7 +10,7 @@ const Work = () => {
         <div className="mt-12 py-5">
            
             <Divider>
-              
+                Our work
             </Divider>
           
             
