@@ -39,7 +39,7 @@ const Review = () => {
           <FaGoogle className="text-sm ml-2"></FaGoogle>
         </div>
       </div>
-      <div className="grid grid-cols-3 gap-5 mt-10 py-10">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 mt-10 py-10">
         <div className="text-center bg-accent rounded-xl">
           <div className="text-left px-8 py-6 h-[300px]">
             <p>

@@ -1,4 +1,4 @@
-import logo1 from "../../assets/kilted.png.png";
+import logo1 from "../../assets/NEWLOGO-ai (4) 1.png";
 const Navbar = () => {
   return (
     <div className="navbar bg-base-100">
@@ -44,11 +44,13 @@ const Navbar = () => {
           </ul>
         </div>
         <a className="normal-case flex items-center">
-          <img src={logo1} alt="" className="h-28 w-32" />
+          <img src={logo1} alt="" className="h-[80px] w-[80px]" />
           <div className="items-center flex text-center">
-            <p className="text-3xl font-bold">
-              EXTERIOR <br />{" "}
-              <span className="text-2xl font-normal text-red">CLEANING</span>
+            <p className="text-2xl font-bold">
+              EXTERIOR <br />
+              <span className="text-xl font-normal block mt-[-5px] text-red">
+                CLEANING
+              </span>
             </p>
           </div>
         </a>

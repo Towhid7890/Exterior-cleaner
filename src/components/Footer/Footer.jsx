@@ -7,6 +7,7 @@ import {
   FaPhoneAlt,
 } from "react-icons/fa";
 import snake from "../../assets/snake.png";
+import styles from "./footer.module.css";
 const Footer = () => {
   return (
     <>
@@ -30,7 +31,9 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="text-white flex gap-20 justify-center">
+        <div
+          className={`text-white flex gap-20 justify-center ${styles.footerMiddle}`}
+        >
           <a className="link link-hover">Blog</a>
           <a className="link link-hover">FAQ</a>
           <a className="link link-hover">Contact Us</a>

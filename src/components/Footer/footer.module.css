@@ -1,0 +1,28 @@
+.footerMiddle {
+    position: relative;
+    padding: 0px 20px;
+}
+
+.footerMiddle {
+    position: relative;
+}
+
+.footerMiddle::after,
+.footerMiddle::before {
+    content: "";
+    width: 5px;
+    position: absolute;
+    height: 100px;
+    display: block;
+    background: #fff;
+}
+
+.footerMiddle::after {
+    top: 0;
+    right: 0;
+}
+
+.footerMiddle::before {
+    top: 0;
+    left: 0;
+}
