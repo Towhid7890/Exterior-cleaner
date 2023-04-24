@@ -6,17 +6,21 @@ import icon1 from "../../assets/icon8.png";
 import icon2 from "../../assets/icon9.png";
 const Experience = () => {
   return (
-    <div className="w-[75%] mx-auto py-10 flex">
+    <div className="lg:w-[75%] mx-auto py-10 flex">
       <div>
-        <img className="w-[280px]" src={logo} alt="" />
+        <img className="w-[300px]" src={logo} alt="" />
       </div>
       <div>
         <div className="flex items-center ">
           <p className="text-green-500">Get Started</p>
-          <img className=" h-2 ml-[-200px]" src={border} alt="" />
+          <img
+            className=" h-2 ml-[-100px] lg:ml-[-200px]"
+            src={border}
+            alt=""
+          />
         </div>
         <div>
-          <h1 className="text-primary text-3xl font-bold">
+          <h1 className="text-primary text-2xl lg:text-3xl font-bold">
             Experience the MVP Difference: How It Works
           </h1>
           <div className="flex items-center gap-5 mt-5 ">
@@ -60,7 +64,7 @@ const Experience = () => {
             </div>
           </div>
         </div>
-        <button className="px-10 mt-10 py-2 border border-primary bg-secondary text-primary font-bold rounded-3xl">
+        <button className="px-5 lg:px-10 mt-5 lg:mt-10 py-1 lg:py-2 border border-primary bg-secondary text-primary font-bold rounded-3xl">
           Schedule estimate
         </button>
       </div>

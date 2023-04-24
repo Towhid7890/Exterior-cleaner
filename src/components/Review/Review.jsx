@@ -9,15 +9,13 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 
-import "./review.css";
-
 // import required modules
 import { FreeMode, Pagination } from "swiper";
 const Review = () => {
   return (
     <div className="w-[75%] mx-auto py-5">
       <Divider>Our Reviews</Divider>
-      <h1 className="text-3xl text-primary font-bold text-center">
+      <h1 className="text-2xl lg:text-3xl text-primary font-bold text-center">
         See what our satisfied clients have to say about us!
       </h1>
       <div className="flex justify-center items-center">
@@ -53,8 +51,13 @@ const Review = () => {
       </div>
 
       <Swiper
-        slidesPerView={3}
-        spaceBetween={30}
+        breakpoints={{
+          320: { slidesPerView: 1, spaceBetween: 30 },
+          480: { slidesPerView: 1, spaceBetween: 30 },
+          768: { slidesPerView: 3, spaceBetween: 10 },
+          1024: { slidesPerView: 3, spaceBetween: 20 },
+          1524: { slidesPerView: 3, spaceBetween: 30 },
+        }}
         freeMode={true}
         // pagination={{
         //   clickable: true,

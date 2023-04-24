@@ -10,7 +10,7 @@
 .footerMiddle::after,
 .footerMiddle::before {
     content: "";
-    width: 5px;
+    width: 2px;
     position: absolute;
     height: 100px;
     display: block;

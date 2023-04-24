@@ -3,12 +3,12 @@ import service from "../../assets/service.png";
 const Services = () => {
   return (
     <div className="hero min-h-screen">
-      <div className="flex flex-col lg:flex-row-reverse w-[75%] gap-5">
+      <div className="flex flex-col lg:flex-row-reverse px-3 lg:w-[75%] gap-5">
         <div className="text-left lg:text-left ps-3">
-          <h1 className="text-3xl font-bold text-green-500">
+          <h1 className="text-2xl lg:text-3xl font-bold text-green-500">
             Exceptional Exterior Cleaning Services
           </h1>
-          <p className="py-6 text-xl text-primary">
+          <p className="py-6 text-lg lg:text-xl text-primary">
             Experience the Best in Exterior Cleaning with MVP Exterior Cleaning
           </p>
           <p>
@@ -24,12 +24,12 @@ const Services = () => {
             Discover the MVP difference and experience the best in exterior
             cleaning services with us today.
           </p>
-          <button className="px-10 mt-20 py-2 border border-primary bg-secondary text-primary font-bold rounded-3xl">
+          <button className="px-5 lg:px-10 mt-4 lg:mt-20 py-1 lg:py-2 border border-primary bg-secondary text-primary font-bold rounded-3xl">
             Schedule estimate
           </button>
         </div>
-        <div className="card flex-shrink-0 w-full max-w-sm ">
-          <img className="rounded-t-xl" src={service} alt="" />
+        <div className="card flex-shrink-0 mx-auto w-[80%] lg:w-full max-w-sm ">
+          <img className="rounded-t-xl " src={service} alt="" />
         </div>
       </div>
     </div>
