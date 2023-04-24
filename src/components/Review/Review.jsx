@@ -68,7 +68,7 @@ const Review = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 mt-10 py-10">
           <SwiperSlide>
             <div className="text-center bg-accent rounded-xl">
-              <div className="text-left px-8 py-6 h-[300px]">
+              <div className="text-left px-4 lg:px-8 py-6 h-[300px]">
                 <p>
                   Sidney goes above and beyond. He's very thorough and
                   attentive. Contact was very easy. Payment was a breeze. I
@@ -112,7 +112,7 @@ const Review = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="text-center bg-accent rounded-xl">
-              <div className="text-left px-8 py-6 h-[300px]">
+              <div className="text-left px-4 lg:px-8 py-6 h-[300px]">
                 <p>
                   Knocked on the door to ask if I needed window cleaning. Very
                   friendly, no pressure, fellow asked if he could do a walk
@@ -155,7 +155,7 @@ const Review = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="text-center bg-accent rounded-xl">
-              <div className="text-left px-8 py-6 h-[300px]">
+              <div className="text-left px-4 lg:px-8 py-6 h-[300px]">
                 <p>
                   So glad we went with MVP for our exterior windows. Sid and his
                   team were efficient and professional. Highly recommend!
@@ -196,7 +196,7 @@ const Review = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="text-center bg-accent rounded-xl">
-              <div className="text-left px-8 py-6 h-[300px]">
+              <div className="text-left px-4 lg:px-8 py-6 h-[300px]">
                 <p>
                   Sidney goes above and beyond. He's very thorough and
                   attentive. Contact was very easy. Payment was a breeze. I

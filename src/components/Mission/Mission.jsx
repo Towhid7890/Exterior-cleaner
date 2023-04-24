@@ -2,7 +2,7 @@
 import border from "../../assets/div.tp-bdr-pttrn-blk-acc.png";
 const Mission = () => {
   return (
-    <div>
+    <div className="py-10">
       <div className="mt-5">
         <img src={border} alt="" />
       </div>

@@ -16,19 +16,31 @@ const Work = () => {
       <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 w-[90%] mx-auto gap-1 mt-16">
         <div className="w-full">
           <img className="h-[300px] w-full lg:h-[380px]" src={pic1} alt="" />
+          <p className="text-left relative bottom-20 left-10 font-bold text-white">
+            before
+          </p>
         </div>
         <div className="w-full">
           <img className="h-[300px] w-full lg:h-[380px]" src={pic2} alt="" />
+          <p className="text-right relative bottom-20 right-10 font-bold text-white">
+            after
+          </p>
         </div>
-        <div className="w-full mt-3 lg:mt-0">
+        <div className="w-full lg:mt-0">
           <img
             className="h-[300px] w-full lg:h-[380px] ps-2"
             src={pic3}
             alt=""
           />
+          <p className="text-left relative bottom-20 left-10 font-bold text-white">
+            before
+          </p>
         </div>
-        <div className="w-full mt-3 lg:mt-0">
+        <div className="w-full  lg:mt-0">
           <img className="h-[300px]  w-full lg:h-[380px]" src={pic4} alt="" />
+          <p className="text-right relative bottom-20 right-10 font-bold text-white">
+            after
+          </p>
         </div>
       </div>
     </div>

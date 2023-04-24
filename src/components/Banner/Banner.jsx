@@ -1,5 +1,6 @@
 import backPic from "../../assets/corporate-mainstage.jpg.png";
 import flag from "../../assets/flag.png";
+import vector from "../../assets/vector.png";
 const Banner = () => {
   return (
     <div
@@ -9,7 +10,12 @@ const Banner = () => {
       <div className="hero-overlay items-center flex bg-opacity-30">
         <div className="w-full lg:w-1/2 ps-10 py-20 lg:ps-20">
           <div className="">
-            <h2 className="text-2xl lg:text-5xl text-white font-bold ">
+            <h2 className="text-2xl flex lg:text-5xl text-white font-bold ">
+              <img
+                className="h-[45px] ml-[-60px] pr-3 hidden lg:inline"
+                src={vector}
+                alt=""
+              />
               Cleaner Windows,
             </h2>
             <h2 className="text-2xl lg:text-5xl text-white font-bold ">

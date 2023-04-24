@@ -24,7 +24,7 @@ const Services = () => {
             Discover the MVP difference and experience the best in exterior
             cleaning services with us today.
           </p>
-          <button className="px-5 lg:px-10 mt-4 lg:mt-20 py-1 lg:py-2 border border-primary bg-secondary text-primary font-bold rounded-3xl">
+          <button className="px-5 lg:px-10 mt-4 lg:mt-10 py-1 lg:py-2 border border-primary bg-secondary text-primary font-bold rounded-3xl">
             Schedule estimate
           </button>
         </div>

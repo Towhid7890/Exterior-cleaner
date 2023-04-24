@@ -8,14 +8,27 @@ const ServiceMain = () => {
   return (
     <div className="hero">
       <div className="flex p-0 flex-col lg:flex-row-reverse">
-        <div className="ml-auto right-0 w-full lg:w-[50%]">
+        <div className="ml-auto relative right-0 w-full lg:w-[50%]">
           <img
             src={flat}
             alt=""
             className="w-[90%] lg:w-full mx-auto lg:mx-0 rounded   h-[300px] lg:h-[750px]"
           />
+
+          <div className="rounded-full flex items-center justify-center shadow-md border w-[50px] h-[50px] bg-slate-300  relative bottom-[200px] lg:bottom-[500px] left-[50px] lg:left-[150px]">
+            <img src={icon1} className="  h-[30px]  w-[30px] " alt="" />
+          </div>
+          <div className="rounded-full flex items-center justify-center shadow-md border w-[50px] h-[50px] bg-slate-300  relative bottom-[150px] lg:bottom-[400px] left-[150px] lg:left-[250px]">
+            <img src={icon2} className="  h-[30px]  w-[30px] " alt="" />
+          </div>
+          <div className="rounded-full flex items-center justify-center shadow-md border w-[50px] h-[50px] bg-slate-300  relative bottom-[300px] lg:bottom-[500px] left-[250px] lg:left-[450px]">
+            <img src={icon3} className="  h-[30px]  w-[30px] " alt="" />
+          </div>
+          <div className="rounded-full  flex items-center justify-center shadow-md border w-[50px] h-[50px] bg-slate-300  relative bottom-[400px] lg:bottom-[700px] left-[150px] lg:left-[350px]">
+            <img src={icon4} className="  h-[30px]  w-[30px] " alt="" />
+          </div>
         </div>
-        <div className="card flex-shrink-0 w-full lg:w-[50%] bg-accent lg:ps-16 pr-3 pt-16">
+        <div className="card mt-[-150px] lg:mt-0 flex-shrink-0 w-full lg:w-[50%] bg-accent lg:h-[750px] lg:ps-16 pr-3 pt-16">
           <div className="w-full pl-5">
             <p className="text-green-500">Our Services</p>
             <p className="text-3xl font-bold text-primary">What we clean</p>

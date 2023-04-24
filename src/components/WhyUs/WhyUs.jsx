@@ -7,7 +7,7 @@ import icon3 from "../../assets/icon7.png";
 const WhyUs = () => {
   return (
     <>
-      <div className="py-5">
+      <div className="py-5 lg:py-0">
         <img src={heading} alt="" />
       </div>
       <div className="hero ">
